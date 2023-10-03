@@ -1,0 +1,93 @@
+html {
+  background-color: lightblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+img {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border-style: solid;
+   border-width: 3px;
+	 border-color: lightgreen;
+   float: left;
+   margin-right: 30px;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-kontak{
+    background: blue;
+    color: white;
+    font-size: 14px;
+    border: black 2px solid;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.button-resume{
+    background: white;
+    color: black;
+    font-size: 14px;
+    border: green 2px solid;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.profile-detail{
+  display: flex;
+}
